@@ -1,12 +1,17 @@
 # 도서 검색 시스템
 
-##
+## 기능
+* 회원가입/로그인
+* 도서 검색
+* 도서 상세 검색
+* 검색 이력
+* 인기 키워드
 
-##
+<br />
 
-##
+----------------
 
-### 사용 라이브러리
+## 사용 라이브러리
 
 > Spring Boot 관련은 제외
 
@@ -17,6 +22,8 @@
 | com.squareup.okhttp | okhttp | HTTP Client 라이브러리 |
 | com.h2database | h2 | In-Memory DB로 사용 |
 | org.projectlombok  | lombok | Entity 객체 코드 간소화 |
+
+<br />
 
 --------
 
