@@ -21,14 +21,14 @@
 <br />
 
 ### 실행 파일 다운로드
-* Downlaod 경로
+* [구글드라이브 다운로드](https://drive.google.com/open?id=1SKypZC4C-lwwrHmQX_aFYP_yewx2Z8BG)
 
 <br />
 
 ### 실행 방법
 * java -jar book-retrieval-{version}.jar
 
-> eg. java -jar book-retreival-1.2.4.jar
+> eg. java -jar book-retreival-1.3.0.jar
 
 <br />
 
