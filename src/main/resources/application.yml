@@ -1,0 +1,65 @@
+# This is an application configuration file for operation
+# Last modified by dorbae on 2019/11/14 03:57:57
+
+# Application server port
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: local # 기본 환경 선택
+
+hibernate:
+  dialect: org.hibernate.dialect.H2Dialect
+
+#  datasource:
+#    tomcat:
+#      max-wait: 20000
+#      max-active: 50
+#      max-idle: 20
+#      min-idle: 15
+
+# Logger Level
+logging:
+  level:
+    org.springframework: INFO
+    io.dorbae: DEBUG
+
+# Server Thread Pool
+thread-pool: 5
+
+
+---
+
+# Local Repository
+spring:
+  application:
+    name: bookretrieval
+  h2:
+    console:
+      # Enable console manager
+      enabled: true
+
+  datasource:
+    # 시작할때 실행시킬 script
+    data: classpath:h2_data.sql
+    url: jdbc:h2:mem:gbbook
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+    jpa:
+      show-sql: true
+      hibernate:
+        ddl-auto: create-drop
+  #    initialization-mode: true
+  thymeleaf:
+    cache: false
+    check-template: true
+    check-template-location: true
+    enabled: true
+    encoding: UTF-8
+    mode: HTML
+    prefix: classpath:/templates/
+    suffix: .html
+  mvc:
+    static-path-pattern=/resources/**:

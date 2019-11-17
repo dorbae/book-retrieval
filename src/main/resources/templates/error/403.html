@@ -1,0 +1,42 @@
+<!--
+*****************************************************************
+*
+* 403.html
+*
+* @description 403 Error page
+*
+*
+*****************************************************************
+*
+* @version 1.0.0    2019/11/14 4:06     dorbae	최초 생성
+* @since 2019/11/14 4:06
+* @author dorbae(dorbae.io @ gmail.com)
+*
+-->
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/lib/bootstrap.min.css}"/>
+    <div th:replace="fragments/header :: header-css"/>
+</head>
+<body>
+
+<div th:replace="fragments/header :: header"/>
+
+<div class="container">
+
+    <div class="starter-template">
+        <h1>403 - Access is denied</h1>
+        <div th:inline="text">Hello '[[${#httpServletRequest.remoteUser}]]',
+            you do not have permission to access this page.
+        </div>
+    </div>
+
+</div>
+<!-- /.container -->
+
+<div th:replace="fragments/footer :: footer"/>
+
+</body>
+</html>

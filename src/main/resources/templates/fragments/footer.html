@@ -1,0 +1,44 @@
+<!--
+*****************************************************************
+*
+* footer.html
+*
+* @description Layout Footer
+*
+*
+*****************************************************************
+*
+* @version 1.0.0    2019/11/14 4:06     dorbae	최초 생성
+* @since 2019/11/14 4:06
+* @author dorbae(dorbae.io @ gmail.com)
+*
+-->
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+</head>
+<body>
+<div th:fragment="footer">
+
+    <div class="container">
+
+        <footer>
+            <!-- this is footer -->
+            © 2019 dorbae
+            <span sec:authorize="isAuthenticated()">
+                | Logged user: <span sec:authentication="name"></span> |
+                Roles: <span sec:authentication="principal.authorities"></span> |
+                <a th:href="@{/auth/logout}">로그아웃</a>
+            </span>
+
+            <script type="text/javascript"
+                    th:src="@{/js/lib/bootstrap.min.js}"></script>
+
+        </footer>
+    </div>
+
+</div>
+</body>
+</html>

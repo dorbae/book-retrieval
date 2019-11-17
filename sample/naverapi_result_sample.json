@@ -1,0 +1,138 @@
+{
+"lastBuildDate": "Sun, 17 Nov 2019 03:39:38 +0900",
+"total": 13406,
+"start": 1,
+"display": 10,
+"items": [
+{
+"title": "이펙티브 자바 (Effective <b>Java</b>)",
+"link": "http://book.naver.com/bookdb/book_detail.php?bid=14097515",
+"image": "https://bookthumb-phinf.pstatic.net/cover/140/975/14097515.jpg?type=m1&udate=20181023",
+"author": "조슈아 블로크",
+"price": "36000",
+"discount": "32400",
+"publisher": "인사이트",
+"pubdate": "20181101",
+"isbn": "8966262287 9788966262281",
+"description": "자바 플랫폼 모범 사례 완벽 가이드 - <b>JAVA</b> 7, 8, 9 대응자바 6 출시 직후 출간된 『이펙티브 자바 2판』 이후로 자바는 커다란 변화를 겪었다. 그래서... 포함한 타입 추론\n-\t@SAFEVARARGS 애너테이션\n-\tTRY-WITH-RESOURCES 문\n-\tOPTIONAL T 인터페이스, <b>JAVA</b>.TIME, 컬렉션의 편의 팩터리 메서드 등의 새로운 라이브러리 기능"
+
+},
+{
+"title": "<b>Java</b>의 정석 (최신 <b>Java</b> 8.0 포함)",
+"link": "http://book.naver.com/bookdb/book_detail.php?bid=10191151",
+"image": "https://bookthumb-phinf.pstatic.net/cover/101/911/10191151.jpg?type=m1&udate=20190204",
+"author": "남궁성",
+"price": "30000",
+"discount": "27000",
+"publisher": "도우출판",
+"pubdate": "20160127",
+"isbn": "8994492038 9788994492032",
+"description": "자바의 기초부터 실전활용까지 모두 담다!자바의 기초부터 객제지향개념을 넘어 실전활용까지 수록한『<b>JAVA</b>의 정석』. 저자의 오랜 실무경험과 강의한... 더불어 기존의 경력자들을 위해 자바 최신기능인 람다와 스트림과 그 밖의 자바의 최신버젼 <b>JAVA</b>8의 새로운 기능까지 자세하게 설명하고 있다."
+
+},
+{
+"title": "명품 <b>JAVA</b> Programming (귀로 배우는 자바가 아니라, 눈으로 몸으로 배우는 자바강좌)",
+"link": "http://book.naver.com/bookdb/book_detail.php?bid=13650995",
+"image": "https://bookthumb-phinf.pstatic.net/cover/136/509/13650995.jpg?type=m1&udate=20180619",
+"author": "황기태|김효수",
+"price": "33000",
+"discount": "31350",
+"publisher": "생능출판사",
+"pubdate": "20180601",
+"isbn": "897050947X 9788970509471",
+"description": "자바(<b>JAVA</b>)는 그 이전 시대에 있었던 프로그래밍 언어에서 한 차원 진화된 개념으로 개발된 가히 혁명적... <b>JAVA</b> 8, 9에서 인터페이스 정의가 바뀌었기 때문에 5장 인터페이스 부분을 수정하였다.\n3. 6.7절 WRAPPER 클래스 부분을 갱신하였다. <b>JAVA</b> 9부터 생성자를 이용하여 WRAPPER 객체를 생성하는 방법이... "
+
+},
+{
+"title": "이것이 자바다 (신용권의 <b>Java</b> 프로그래밍 정복)",
+"link": "http://book.naver.com/bookdb/book_detail.php?bid=8589375",
+"image": "https://bookthumb-phinf.pstatic.net/cover/085/893/08589375.jpg?type=m1&udate=20190327",
+"author": "신용권",
+"price": "30000",
+"discount": "27000",
+"publisher": "한빛미디어",
+"pubdate": "20150105",
+"isbn": "8968481474 9788968481475",
+"description": "『이것이 자바다』은 15년 이상 자바 언어를 교육해온 자바 전문강사의 노하우를 아낌 없이 담아낸 자바 입문서이다. 자바 입문자를 배려한 친절한 설명과 배려로 1장에 풀인원 설치 방법을 제공하여 쉽게 학습환경을 구축할 수 있다. 또한 중급 개발자로 나아가기 위한 람다식(14장), JAVAFX(17장), NIO(18... "
+
+},
+{
+"title": "윤성우의 열혈 <b>Java</b> 프로그래밍",
+"link": "http://book.naver.com/bookdb/book_detail.php?bid=12236206",
+"image": "https://bookthumb-phinf.pstatic.net/cover/122/362/12236206.jpg?type=m1&udate=20181129",
+"author": "윤성우",
+"price": "30000",
+"discount": "27000",
+"publisher": "오렌지미디어",
+"pubdate": "20170705",
+"isbn": "8996094072 9788996094074",
+"description": "『윤성우의 열혈 <b>JAVA</b> 프로그래밍』은 최신 내용을 바탕으로 새롭게 집필된 자바책이다. 자바 8이 발표되면서 초보자들에게 어려울 수 있는 문법적 요소가 상당수 포함이 되었으나 저자 특유의 쉽고 명확한 설명을 통해서 어렵지 않게 해당 내용들을 설명한 책이다. 본서의 설명에는 독자들을 고려한 과하지... "
+
+},
+{
+"title": "초보자를 위한 JavaScript 200제",
+"link": "http://book.naver.com/bookdb/book_detail.php?bid=14602049",
+"image": "https://bookthumb-phinf.pstatic.net/cover/146/020/14602049.jpg?type=m1&udate=20190918",
+"author": "고재도|노지연",
+"price": "25000",
+"discount": "22500",
+"publisher": "정보문화사",
+"pubdate": "20190310",
+"isbn": "8956748241 9788956748245",
+"description": "JAVASCRIPT로 무엇이든 해낼 수 있다!\n\n발 빠르게 진화되면서 세계에서 가장 인기 있는 언어가 된 자바스크립트를 설치부터 활용까지 예제별로 친절하게 안내하는 책이다. 본서는 총 5개의 파트(입문, 초급, 중급, 활용, 실무)로 구성되어 있으며 200개의 예제를 학습하면서 자바스크립트를 익힐 수 있다.... "
+
+},
+{
+"title": "모던 웹을 위한 JavaScript + jQuery 입문 (ECMAScript 5/6, jQuery 3.X 대응)",
+"link": "http://book.naver.com/bookdb/book_detail.php?bid=11990519",
+"image": "https://bookthumb-phinf.pstatic.net/cover/119/905/11990519.jpg?type=m1&udate=20190710",
+"author": "윤인성",
+"price": "32000",
+"discount": "28800",
+"publisher": "한빛미디어",
+"pubdate": "20170501",
+"isbn": "8968483558 9788968483554",
+"description": "최신 버전을 적용한 개정판!『모던 웹을 위한 JAVASCRIPT + JQUERY 입문』은 클라이언트 자바스크립트와 관련된 거의 모든 내용을 다루며, 표준 자바스크립트 프레임워크로 채택된 JQUERY도 함께 다룬다. 거기서 한걸음 더 나아가 현대적 웹 애플리케이션을 개발하기 위한 AJAX와 JQUERY... "
+
+},
+{
+"title": "명품 HTML5 + CSS3 + Javascript 웹 프로그래밍",
+"link": "http://book.naver.com/bookdb/book_detail.php?bid=11575805",
+"image": "https://bookthumb-phinf.pstatic.net/cover/115/758/11575805.jpg?type=m1&udate=20180110",
+"author": "황기태",
+"price": "28000",
+"discount": "26320",
+"publisher": "생능출판사",
+"pubdate": "20170116",
+"isbn": "8970508880 9788970508887",
+"description": "웹 프로그래밍을 가장 쉽게 익힐 수 있는 책&#x0D;&#x0D;웹 페이지 제작은 HTML 태그를 이용하여 페이지를 만들고, CSS3로 모양을 꾸미고, 자바스크립트로 사용자 인터페이스나 응용프로그램을 작성하는 과정으로 이루어진다. 이 세 가지 지식이 모두 필요하므로 웹 프로그래밍은 쉬운 것 같으면서도... "
+
+},
+{
+"title": "초보자를 위한 <b>Java</b> 200제",
+"link": "http://book.naver.com/bookdb/book_detail.php?bid=13746617",
+"image": "https://bookthumb-phinf.pstatic.net/cover/137/466/13746617.jpg?type=m1&udate=20180705",
+"author": "조효은",
+"price": "28000",
+"discount": "25200",
+"publisher": "정보문화사",
+"pubdate": "20180705",
+"isbn": "8956747857 9788956747859",
+"description": "활용되는 <b>Java</b> 예제 200개를 엄선하여 수록하였습니다. 빌보드 차트 만들기, 카드 게임 만들기, 인사 관리(HRM)용 어플리케이션 만들기, 채팅 만들기 등의 예제를 통해 자연스럽게 <b>Java</b> 프로그래밍에 익숙해지고 흥미를 느낄 수 있도록 집필하였으며, 예제를 하나하나 실습하다 보면 <b>Java</b> 프로그래밍... "
+
+},
+{
+"title": "HTML5,CSS3,JavaScript,jQuery Mobile 중심의 Front-End 웹프로그래밍",
+"link": "http://book.naver.com/bookdb/book_detail.php?bid=15407631",
+"image": "https://bookthumb-phinf.pstatic.net/cover/154/076/15407631.jpg?type=m1&udate=20191001",
+"author": "김형수",
+"price": "22000",
+"discount": "19800",
+"publisher": "마지원",
+"pubdate": "20191023",
+"isbn": "1188127535 9791188127535",
+"description": "▶ 이 책은 FRONT-END 웹프로그래밍을 다룬 이론서입니다."
+
+}
+]
+}

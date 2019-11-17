@@ -1,0 +1,61 @@
+<!--
+*****************************************************************
+*
+* topkeyword.html
+*
+* @description 인기 검색어 화면
+*
+*
+*****************************************************************
+*
+* @version 1.0.1    2019/11/17 02:32     dorbae	불필요 코드 정리
+* @version 1.0.0    2019/11/15 00:24     dorbae	최초 생성
+* @since 2019/11/15 00:24
+* @author dorbae(dorbae.io @ gmail.com)
+*
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body class="container">
+<div class="jumbotron">
+    <h4>인기 검색어</h4>
+</div>
+
+<!-- 인기 검색어 테이블 -->
+<table class="table">
+    <thead class="thead-dark">
+    <tr>
+        <th scope="col">순위</th>
+        <th scope="col">검색어</th>
+        <th scope="col">조회수</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="keyword: ${keywords}">
+        <td th:text="${keywordStat.index+1}"></td>
+        <td th:text="${keyword.keyword}"></td>
+        <td th:text="${keyword.count}"></td>
+    </tr>
+    </tbody>
+</table>
+<!-- END:인기 검색어 테이블 -->
+
+<div>
+    <!-- 인기 검색어 새로고침 버튼 -->
+    <button type="button" id="btn-refresh-top-keyword" class="btn btn-outline-warning"
+            onclick="refreshTopKeyword()">
+        새로고침
+    </button>
+</div>
+
+<script>
+    function refreshTopKeyword() {
+        $('#section-top-keyword').load("/keywords/top");
+    }
+</script>
+</body>
+</html>

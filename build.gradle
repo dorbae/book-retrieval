@@ -1,0 +1,69 @@
+plugins {
+    id 'org.springframework.boot' version '2.2.1.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+    id 'java'
+}
+
+group = 'io.dorbae.gb.retrieval'
+version = '1.2.4'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+configurations {
+    developmentOnly
+    runtimeClasspath {
+        extendsFrom developmentOnly
+    }
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+// Spring Boot Dependency Overriding
+// SpringDataJpa 사용하는 Hibernate 버전 변경
+ext['hibernate.version'] = '5.4.8.Final'
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    // Spring Boot 보안 라이브러리. 사용자 비밀번호 암/복호화
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity5'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    // Thymeleaf Java8 LocalDatetime 호환
+    implementation 'org.thymeleaf.extras:thymeleaf-extras-java8time'
+    implementation 'org.thymeleaf:thymeleaf-spring5'
+    //
+    // 문자열 처리 라이브러리
+    implementation('org.apache.commons:commons-lang3')
+    // HTTP Client 라이브러리
+    implementation('com.squareup.okhttp:okhttp:2.5.0')
+    // Entity 객체 코드 간소화
+    compileOnly 'org.projectlombok:lombok'
+    // 설정 변경 자동화 적용
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    // In-Memory DB로 사용
+    runtimeOnly 'com.h2database:h2'
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+    // Entity 객체 코드 간소화
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+    }
+    testImplementation 'org.springframework.security:spring-security-test'
+
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+
+    implementation('nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect')
+    // spring-boot-starter-test 내에 포함되어 있음
+//    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+test {
+    useJUnitPlatform()
+}

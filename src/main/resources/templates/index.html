@@ -1,0 +1,88 @@
+<!--
+*****************************************************************
+*
+* index.html
+*
+* @description 메인 화면
+*
+*
+*****************************************************************
+*
+* @version 1.0.0    2019/11/14 4:06     dorbae	최초 생성
+* @since 2019/11/14 4:06
+* @author dorbae(dorbae.io @ gmail.com)
+*
+-->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <meta charset="UTF-8">
+    <div th:replace="fragments/header :: header-css"/>
+</head>
+<body>
+
+<div th:replace="fragments/header :: header"/>
+<div class="container">
+
+    <!-- 인기 검색어 영역 -->
+    <section id="section-top-keyword">
+        <!-- 인기 검색어 테이블 출력 -->
+        <div id="div-top-keyword" class="container">
+        </div>
+    </section>
+    <!-- $END:인기 검색어 영역 -->
+
+    <!-- 도서 검색 영역 (로그인 시에만) -->
+    <section id="section-retrieval-book" sec:authorize="isAuthenticated()">
+        <!-- 검색 조건 폼 -->
+        <div id="div-retrieval-book" class="container">
+            <div class="jumbotron">
+                <h4>도서 검색</h4>
+            </div>
+
+            <form>
+                <div class="form-group">
+                    <label>검색어</label>
+                    <input type="text" class="form-control" id="keyword" placeholder="검색어를 입력하세요">
+                </div>
+                <button class="btn btn-outline-warning" id="btn-retrieval-book" type="submit">조회</button>
+            </form>
+        </div>
+    </section>
+    <!-- $END:도서 검색 영역 -->
+
+    <!-- 최근 검색 이력 영역 (로그인 시에만) -->
+    <section id="section-recent-retrieval" sec:authorize="isAuthenticated()">
+        <!-- 검색어 이력 테이블 출력 -->
+        <div id="div-recent-retrieval" class="container">
+        </div>
+    </section>
+    <!-- $END:최근 검색 이력 영역 -->
+    <!-- 도서 검색 결과 영역 (로그인 시에만) -->
+    <section id="section-book-list" sec:authorize="isAuthenticated()">
+        <!-- 도서 리스트 출력 -->
+        <div id="div-book-list" class="container">
+        </div>
+    </section>
+    <!-- $END:최근 검색 이력 영역 -->
+</div>
+<!-- /.container -->
+
+<div th:replace="fragments/footer :: footer"/>
+
+<script type="text/javascript" th:src="@{/js/lib/bootstrap.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/lib/jquery.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/app/main.js}"></script>
+<script>
+    // 화면 준비되면
+    $(document).ready(function () {
+        // 인기 검색어 노출
+        $('#div-top-keyword').load("/keywords/top")
+    });
+</script>
+<script sec:authorize="isAuthenticated()"> $(document).ready(function () {
+    // 검색어 이력
+    $('#div-recent-retrieval').load("/keywords/recent")
+});</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!--
+*****************************************************************
+*
+* header.html
+*
+* @description 헤더 화면
+*
+*
+*****************************************************************
+*
+* @version 1.0.0    2019/11/15 00:24     dorbae	최초 생성
+* @since 2019/11/15 00:24
+* @author dorbae(dorbae.io @ gmail.com)
+*
+-->
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <div th:fragment="header-css">
+        <link rel="stylesheet" type="text/css" th:href="@{/css/lib/bootstrap.min.css}"/>
+        <link rel="stylesheet" th:href="@{/css/main.css}"/>
+    </div>
+</head>
+<body>
+<div th:fragment="header">
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" style="color: #ffe812;">DORBAE</a>
+            <a class="navbar-nav" style="color: #f7f7f7;" th:href="@{/}">HOME</a>
+            <a class="navbar-nav" style="color: #f7f7f7;" th:href="@{#div-top-keyword}">인기검색어</a>
+            <a class="navbar-nav" style="color: #f7f7f7;" sec:authorize="isAuthenticated()"
+               th:href="@{#div-retrieval-book}">도서검색</a>
+            <a class="navbar-nav" sec:authorize="isAuthenticated()" th:href="@{#div-recent-retrieval}"
+               style="color: #f7f7f7;">최근검색</a>
+            <a sec:authorize="isAnonymous()" style="color: #f7f7f7;" th:href="@{/auth/login}">로그인</a>
+            <a sec:authorize="isAuthenticated()" style="color: #f7f7f7;" th:href="@{/auth/logout}">로그아웃</a>
+            <a sec:authorize="isAnonymous()" style="color: #f7f7f7;" th:href="@{/auth/signup}">회원가입</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+
+        </div>
+    </nav>
+</div>
+
+<script type="text/javascript" th:src="@{/js/lib/bootstrap.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/lib/jquery.min.js}"></script>
+</body>
+</html>

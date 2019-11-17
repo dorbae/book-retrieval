@@ -1,0 +1,63 @@
+<!--
+*****************************************************************
+*
+* bookdetail.html
+*
+* @description 도서 상세 정보 화면
+*
+*
+*****************************************************************
+*
+* @version 1.2.0    2019/11/17 02:25     dorbae	import 정리
+* @version 1.1.0    2019/11/16 22:35     dorbae	포맷 정리
+* @version 1.0.0    2019/11/15 00:24     dorbae	최초 생성
+* @since 2019/11/15 00:24
+* @author dorbae(dorbae.io @ gmail.com)
+*
+-->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <div th:replace="fragments/common :: header-cssjs"/>
+</head>
+<body class="container">
+
+<form>
+    <div class="row">
+        <div class="col" th:border="1">
+            <img th:src="${book.thumbnail}"/>
+        </div>
+        <div class="col" th:border="1">
+            <div class="row">
+                <label th:text="${book.title}"></label>
+            </div>
+            <div class="row">
+                <label th:text="|저자 : ${book.authors}|"></label>
+            </div>
+            <div class="row">
+                <label th:text="|출판사 : ${book.publisher}|"></label>
+            </div>
+            <div class="row">
+                <label th:text="|정가 : ${book.price == -1 ? '없음' : #numbers.formatInteger(book.price, 0, 'COMMA') + '원'}|"></label>
+            </div>
+            <div class="row">
+                <label th:text="|판매가 : ${book.salesPrice == -1 ? '없음' : #numbers.formatInteger(book.salesPrice, 0, 'COMMA') + '원'}|"></label>
+            </div>
+            <div class="row">
+                <label th:text="|출판일 : ${#temporals.format(book.datetime, 'yyyy년 M월 d일')}|"></label>
+            </div>
+            <div class="row">
+                <label th:text="|ISBN : ${book.isbn}|"></label>
+            </div>
+        </div>
+    </div>
+    <br/>
+
+    <div class="row">
+        <label>책 설명</label>
+        <label style="border: #1b1e21" th:border="1" th:text="${book.contents}"></label>
+    </div>
+</form>
+</body>
+</html>

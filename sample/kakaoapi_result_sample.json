@@ -1,0 +1,171 @@
+{
+  "documents": [
+    {
+      "authors": [
+        "Savitch",
+        "Mock"
+      ],
+      "contents": "Java: An Introduction to Problem Solving and Programming, 7e, is ideal for introductory Computer Science courses using Java, and other introductory programming courses in departments of Computer Science, Computer Engineering, CIS, MIS, IT, and Business.  Students",
+      "datetime": "2016-02-01T00:00:00.000+09:00",
+      "isbn": "129201833X 9781292018331",
+      "price": 40000,
+      "publisher": "Pearson",
+      "sale_price": 40000,
+      "status": "정상판매",
+      "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F3383739%3Ftimestamp%3D20190220072908",
+      "title": "Java",
+      "translators": [],
+      "url": "https://search.daum.net/search?w=bookpage\u0026bookId=3383739\u0026q=Java"
+    },
+    {
+      "authors": [
+        "Herbert Schildt"
+      ],
+      "contents": "The Definitive Java Programming Guide  Fully updated for Java SE 8, Java: The Complete Reference, Ninth Edition explains how to develop, compile, debug, and run Java programs. Bestselling programming author Herb Schildt covers the entire Java language, including",
+      "datetime": "2014-04-01T00:00:00.000+09:00",
+      "isbn": " 9780071808552",
+      "price": 84900,
+      "publisher": "",
+      "sale_price": 67030,
+      "status": "정상판매",
+      "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F3830371%3Ftimestamp%3D20190227101606",
+      "title": "Java",
+      "translators": [],
+      "url": "https://search.daum.net/search?w=bookpage\u0026bookId=3830371\u0026q=Java"
+    },
+    {
+      "authors": [
+        "Schildt Herbert"
+      ],
+      "contents": "",
+      "datetime": "2017-10-09T00:00:00.000+09:00",
+      "isbn": " 9781259589317",
+      "price": 56600,
+      "publisher": "",
+      "sale_price": 44710,
+      "status": "정상판매",
+      "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F3877987%3Ftimestamp%3D20190227150319",
+      "title": "Java",
+      "translators": [],
+      "url": "https://search.daum.net/search?w=bookpage\u0026bookId=3877987\u0026q=Java"
+    },
+    {
+      "authors": [
+        "Herbert Schildt"
+      ],
+      "contents": "",
+      "datetime": "2014-05-06T00:00:00.000+09:00",
+      "isbn": " 9780071809252",
+      "price": 56600,
+      "publisher": "",
+      "sale_price": 44470,
+      "status": "정상판매",
+      "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F3830300%3Ftimestamp%3D20190227101544",
+      "title": "Java",
+      "translators": [],
+      "url": "https://search.daum.net/search?w=bookpage\u0026bookId=3830300\u0026q=Java"
+    },
+    {
+      "authors": [
+        "Herbert Schildt"
+      ],
+      "contents": "",
+      "datetime": "2014-07-14T00:00:00.000+09:00",
+      "isbn": "0071809252 9780071809252",
+      "price": 56080,
+      "publisher": "McGraw-Hill/Osborne Media",
+      "sale_price": -1,
+      "status": "",
+      "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F3189332%3Ftimestamp%3D20190218082046",
+      "title": "Java",
+      "translators": [],
+      "url": "https://search.daum.net/search?w=bookpage\u0026bookId=3189332\u0026q=Java"
+    },
+    {
+      "authors": [
+        "Schildt Herbert"
+      ],
+      "contents": "",
+      "datetime": "2017-10-09T00:00:00.000+09:00",
+      "isbn": "1259589315 9781259589317",
+      "price": 54220,
+      "publisher": "McGraw-Hill Education",
+      "sale_price": 43740,
+      "status": "정상판매",
+      "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F3506724%3Ftimestamp%3D20190221112307",
+      "title": "Java",
+      "translators": [],
+      "url": "https://search.daum.net/search?w=bookpage\u0026bookId=3506724\u0026q=Java"
+    },
+    {
+      "authors": [
+        "Paul Deitel",
+        "Harvey Deitel"
+      ],
+      "contents": "",
+      "datetime": "2018-03-28T00:00:00.000+09:00",
+      "isbn": "1292223855 9781292223858",
+      "price": 48000,
+      "publisher": "Pearson",
+      "sale_price": 47520,
+      "status": "정상판매",
+      "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F3533711%3Ftimestamp%3D20190221175206",
+      "title": "How to Program(Java)",
+      "translators": [],
+      "url": "https://search.daum.net/search?w=bookpage\u0026bookId=3533711\u0026q=How+to+Program%28Java%29"
+    },
+    {
+      "authors": [
+        "남궁성"
+      ],
+      "contents": "자바의 기초부터 객제지향개념을 넘어 실전활용까지 수록한『Java의 정석』. 저자의 오랜 실무경험과 강의한 내용으로 구성되어 자바를 처음 배우는 초보자들의 궁금한 점을 빠짐없이 담고 있다. 더불어 기존의 경력자들을 위해 자바 최신기능인 람다와 스트림과 그 밖의 자바의 최신버젼 JAVA8의 새로운 기능까지 자세하게 설명하고 있다.",
+      "datetime": "2016-01-27T00:00:00.000+09:00",
+      "isbn": "8994492038 9788994492032",
+      "price": 30000,
+      "publisher": "도우출판",
+      "sale_price": 27000,
+      "status": "정상판매",
+      "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F1422248%3Ftimestamp%3D20190129232822",
+      "title": "Java의 정석(3판)(전2권)",
+      "translators": [],
+      "url": "https://search.daum.net/search?w=bookpage\u0026bookId=1422248\u0026q=Java%EC%9D%98+%EC%A0%95%EC%84%9D%283%ED%8C%90%29%28%EC%A0%842%EA%B6%8C%29"
+    },
+    {
+      "authors": [
+        "김석현"
+      ],
+      "contents": "『C JAVA 프로그래밍 입문』은 프로그래밍을 위한 입문서이다. 이 책은 문제 해결 관점에서 프로그래밍을 하는 방법을 소개하고, 몇 가지의 예제를 통해 문제를 해결하는 방식을 제시했다. 이 책에 제시된 문제 해결 방식을 참고하여 개인마다 창의적으로 문제를 해결할 수 있도록 도왔다.",
+      "datetime": "2012-02-20T00:00:00.000+09:00",
+      "isbn": "8997399039 9788997399031",
+      "price": 23000,
+      "publisher": "삼양애드",
+      "sale_price": 20700,
+      "status": "정상판매",
+      "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F1492471%3Ftimestamp%3D20190130092345",
+      "title": "C \u0026 JAVA 프로그래밍 입문.1",
+      "translators": [],
+      "url": "https://search.daum.net/search?w=bookpage\u0026bookId=1492471\u0026q=C+%26+JAVA+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D+%EC%9E%85%EB%AC%B8.1"
+    },
+    {
+      "authors": [
+        "신용권"
+      ],
+      "contents": "『이것이 자바다』은 15년 이상 자바 언어를 교육해온 자바 전문강사의 노하우를 아낌 없이 담아낸 자바 입문서이다. 자바 입문자를 배려한 친절한 설명과 배려로 1장에 풀인원 설치 방법을 제공하여 쉽게 학습환경을 구축할 수 있다. 또한 중급 개발자로 나아가기 위한 람다식(14장), JavaFX(17장), NIO(18~19장) 수록되어 있으며 각 챕터마다 확인문제 제공. 풀이와 답은 인터넷 강의에서 친절한 해설을 통해 알려준다.",
+      "datetime": "2015-01-05T00:00:00.000+09:00",
+      "isbn": "8968481474 9788968481475",
+      "price": 30000,
+      "publisher": "한빛미디어",
+      "sale_price": 27000,
+      "status": "정상판매",
+      "thumbnail": "https://search1.kakaocdn.net/thumb/R120x174.q85/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flbook%2Fimage%2F945967%3Ftimestamp%3D20190126042725",
+      "title": "이것이 자바다",
+      "translators": [],
+      "url": "https://search.daum.net/search?w=bookpage\u0026bookId=945967\u0026q=%EC%9D%B4%EA%B2%83%EC%9D%B4+%EC%9E%90%EB%B0%94%EB%8B%A4"
+    }
+  ],
+  "meta": {
+    "is_end": false,
+    "pageable_count": 1000,
+    "total_count": 4125
+  }
+}

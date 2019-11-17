@@ -1,0 +1,30 @@
+<!--
+*****************************************************************
+*
+* commonheader.html
+*
+* @description 공통헤더
+*
+*
+*****************************************************************
+*
+* @version 1.0.0    2019/11/17 00:24     dorbae	최초 생성
+* @since 2019/11/17 00:24
+* @author dorbae(dorbae.io @ gmail.com)
+*
+-->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <div th:fragment="header-cssjs">
+        <!-- 공통 CSS -->
+        <link rel="stylesheet" type="text/css" th:href="@{/css/lib/bootstrap.min.css}"/>
+        <link rel="stylesheet" th:href="@{/css/main.css}"/>
+        <!-- 공통 Javascript -->
+        <script type="text/javascript" th:src="@{/js/lib/jquery.min.js}"></script>
+        <script type="text/javascript" th:src="@{/js/lib/bootstrap.min.js}"></script>
+        <script type="text/javascript" th:src="@{/js/app/main.js}"></script>
+    </div>
+</head>
+</html>
